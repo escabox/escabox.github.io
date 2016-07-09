@@ -1,49 +1,21 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style>
-* {
-    box-sizing: border-box;
-}
-.header {
-    border: 1px solid red;
-    padding: 15px;
-}
-.menu {
-    width: 25%;
-    float: left;
-    padding: 15px;
-    border: 1px solid red;
-}
-.main {
-    width: 75%;
-    float: left;
-    padding: 15px;
-    border: 1px solid red;
-}
-</style>
-</head>
 <body>
 
-<div class="header">
-<h1>Chania</h1>
-</div>
-
-<div class="menu">
-<ul>
-<li>The Flight</li>
-<li>The City</li>
-<li>The Island</li>
-<li>The Food</li>
-</ul>
-</div>
-
-<div class="main">
-<h1>The City</h1>
-<p>Chania is the capital of the Chania region on the island of Crete. The city can be divided in two parts, the old town and the modern city.</p>
-<p>Resize the browser window to see how the content respond to the resizing.</p>
-</div>
+<svg height="130" width="500">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"
+      style="stop-color:rgb(255,255,0);stop-opacity:1" />
+      <stop offset="100%"
+      style="stop-color:rgb(255,0,0);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <ellipse cx="100" cy="70" rx="85" ry="55" fill="url(#grad1)" />
+  <text fill="#ffffff" font-size="26" font-family="Verdana"
+  x="50" y="86">Escabox</text>
+Sorry, your browser does not support inline SVG.
+</svg>
 
 </body>
 </html>
